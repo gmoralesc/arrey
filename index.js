@@ -1,4 +1,4 @@
-function Arrey() {
+export default function Arrey() {
   Object.defineProperty(this, 'length', {
     enumerable: false,
     writable: true,
@@ -120,5 +120,3 @@ Arrey.prototype.reduce = function (callback, ac) {
   }
   return result;
 };
-
-module.exports = Arrey;

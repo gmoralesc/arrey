@@ -1,4 +1,4 @@
-const Arrey = require('./index');
+import Arrey from './index.js';
 
 describe('Arrey', () => {
   test('Empty arrey', () => {
